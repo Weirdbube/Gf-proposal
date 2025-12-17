@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff4d7d" />
+    <title>One Question 💌</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="confetti" aria-hidden="true"></canvas>
+
+    <header class="topbar">
+      <div class="brand" aria-label="site title">
+        <span class="brand__dot"></span>
+        <span id="siteTitle">A tiny love story</span>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="hero" aria-label="intro">
+        <div class="hero__copy">
+          <p class="kicker" id="kicker">Hey… I made something for you</p>
+          <h1 class="title">
+            <span id="name">You</span>, I have
+            <span class="title__accent">one question</span>.
+          </h1>
+          <p class="poemInline" id="poemInline">
+            I like your laugh.<br />
+            I like your smile.<br />
+            I like how you listen.<br />
+            I like how you think.<br />
+            I like how you care.<br />
+            I love everything about you.<br />
+            Time feels better with you.<br />
+            I want more of it.
+          </p>
+        </div>
+
+        <div class="card slider" aria-label="photo slideshow">
+          <div class="slider__frame">
+            <img
+              id="slideImg"
+              class="slider__img"
+              alt="Photo slide"
+              loading="eager"
+              decoding="async"
+            />
+            <div class="slider__fade"></div>
+            <div class="slider__counter" id="counter" aria-label="slide counter">
+              1 / 1
+            </div>
+          </div>
+
+          <div class="slider__controls">
+            <button id="prevBtn" class="btn btn--ghost" type="button" aria-label="previous">
+              ←
+            </button>
+            <div class="dots" id="dots" aria-label="slide dots"></div>
+            <button id="nextBtn" class="btn btn--ghost" type="button" aria-label="next">
+              →
+            </button>
+          </div>
+
+          <div class="slider__caption" id="caption" aria-label="slide caption"></div>
+        </div>
+      </section>
+
+      <section class="question card" aria-label="the question">
+        <div class="question__left">
+          <h2 class="question__title" id="questionTitle">Will you be my girlfriend?</h2>
+          <p class="question__hint" id="questionHint">
+            There is only one correct answer (but I’ll let you try).
+          </p>
+          <div class="question__mediaWrap" id="questionMediaWrap" aria-label="question media">
+            <div
+              class="tenor-gif-embed"
+              data-postid="26344462"
+              data-share-method="host"
+              data-aspect-ratio="1.04235"
+              data-width="65%"
+            >
+              <a
+                href="https://tenor.com/view/spongebob-squarepants-begging-pretty-please-beg-on-your-knees-pray-for-mercy-gif-26344462"
+                >Spongebob Squarepants Begging GIF</a
+              >
+              from
+              <a href="https://tenor.com/search/spongebob+squarepants-gifs"
+                >Spongebob Squarepants GIFs</a
+              >
+            </div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+          </div>
+        </div>
+
+        <div class="question__right">
+          <div class="btnRow" id="btnRow">
+            <button id="yesBtn" class="btn btn--primary" type="button">Yes 💖</button>
+            <button id="noBtn" class="btn btn--danger" type="button">No 🙈</button>
+          </div>
+
+          <div class="result" id="result" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span id="footerText">Made with courage and love.</span>
+      </footer>
+    </main>
+
+    <audio id="bgm" preload="auto" loop autoplay>
+      <source
+        src="assets/music/song.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <div id="popupOverlay" class="popupOverlay" hidden>
+      <div
+        id="popup"
+        class="popup"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="popupTitle"
+        aria-describedby="popupBody"
+      >
+        <h3 id="popupTitle" class="popup__title">Yay 💖</h3>
+        <div id="popupBody" class="popup__body">
+          <p id="popupLine1" class="popup__line"></p>
+          <p id="popupLine2" class="popup__line popup__line--muted"></p>
+        </div>
+        <div class="popup__actions">
+          <button id="popupClose" class="btn btn--primary" type="button">Okay 😭💘</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
