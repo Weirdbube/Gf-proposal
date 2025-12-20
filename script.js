@@ -4,7 +4,7 @@
 const CONFIG = {
   girlfriendName: "Tumi",
   siteTitle: "A tiny love story",
-  kicker: "Hey… I made something for you babyyy",
+  kicker: "Heyy pooks… I made something for you babyyy",
   questionTitle: "Will you be my girlfriend?",
   questionHint: "There is only one correct answer (but I’ll let you try).",
   yesMessage: "YES?! Okay. I’m smiling like an idiot. 💖",
@@ -399,6 +399,7 @@ function init() {
 }
 
 init();
+
 
 
 
