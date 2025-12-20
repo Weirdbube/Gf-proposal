@@ -10,7 +10,7 @@ const CONFIG = {
   yesMessage: "YES?! Okay. I’m smiling like an idiot. 💖",
   yesFollowup:
     "I love you babyyyy💖. (Also: you’re officially my favorite person.)",
-  footerText: "Made with courage and love.",
+  footerText: "Made with so much loveee.",
 
   // Replace these with your real photos in assets/photos/
   photos: [
@@ -399,5 +399,6 @@ function init() {
 }
 
 init();
+
 
 
