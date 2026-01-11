@@ -18,9 +18,9 @@ const CONFIG = {
     { src: "assets/photos/her7.jpg", caption: "My Shaylaaaaaa" },
     { src: "assets/photos/her5.jpg", caption: "Ashy KB!!!" },
     { src: "assets/photos/her4.jpg", caption: "I mean, This FACECARD!!!" },
-    { src: "assets/photos/pic5.jpg", caption: "Say Yes and be my wifeeeeeee" },
-    { src: "assets/photos/pic2.jpg", caption: "Ignore maro at the back" },
-    { src: "assets/photos/pic3.jpg", caption: "Hi, can i kidnap you?" },
+    { src: "assets/photos/pic5.jpeg", caption: "Say Yes and be my wifeeeeeee" },
+    { src: "assets/photos/pic2.jpeg", caption: "Ignore maro at the back" },
+    { src: "assets/photos/pic3.jpeg", caption: "Hi, can i kidnap you?" },
     { src: "assets/photos/charm.jpg", caption: "We can do this the easy way or the hard way" },
     { src: "assets/photos/ily.gif", caption: "Us being cute" },
   ],
@@ -402,6 +402,7 @@ function init() {
 }
 
 init();
+
 
 
 
