@@ -5,7 +5,7 @@ const CONFIG = {
   girlfriendName: "Tumi",
   siteTitle: "A tiny love story",
   kicker: "Heyy pooks… I made something for you babyyy",
-  questionTitle: "Will you be my girlfriend?",
+  questionTitle: "Can i be your girlfriend?",
   questionHint: "There is only one correct answer (but I’ll let you try).",
   yesMessage: "YES?! Okay. I’m smiling like an idiot. 💖",
   yesFollowup:
@@ -18,7 +18,7 @@ const CONFIG = {
     { src: "assets/photos/her7.jpg", caption: "My Shaylaaaaaa" },
     { src: "assets/photos/her5.jpg", caption: "Ashy KB!!!" },
     { src: "assets/photos/her4.jpg", caption: "I mean, This FACECARD!!!" },
-    { src: "assets/photos/pic5.jpeg", caption: "Say Yes and be my wifeeeeeee" },
+    { src: "assets/photos/pic5.jpeg", caption: "you so pretty mama" },
     { src: "assets/photos/pic2.jpeg", caption: "Ignore maro at the back" },
     { src: "assets/photos/pic3.jpeg", caption: "Hi, can i kidnap you?" },
     { src: "assets/photos/charm.jpg", caption: "We can do this the easy way or the hard way" },
@@ -402,6 +402,7 @@ function init() {
 }
 
 init();
+
 
 
 
